@@ -1,2 +1,2 @@
 # ICP
-Index of Contributions to Planetary Well-being
+Index of Contributions to Planetary Well-being.
