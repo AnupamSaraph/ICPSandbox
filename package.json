@@ -1,5 +1,5 @@
 {
-  "name": "earth-charter",
+  "name": "earth-index",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy": "ng build --prod --base-href https://pankajsharma1980.github.io/EarthCharter/ && angular-cli-ghpages --branch gh-pages"
+    "deploy": "ng build --prod --base-href=/angular-ci-cd/"
   },
   "private": true,
   "dependencies": {
