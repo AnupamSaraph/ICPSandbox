@@ -11,6 +11,7 @@ import { FormsModule} from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { GoogleFormComponent } from './google-form/google-form.component';
 import { CarouselModule } from 'ngx-owl-carousel-o';
+import { CarouselComponent } from './carousel/carousel.component';
 
 
 @NgModule({
@@ -19,6 +20,7 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
     HeaderComponent,
     FooterComponent,
     VideoComponent,
+    CarouselComponent,
     ChartCarouselComponent,
     GoogleFormComponent,
   ],
