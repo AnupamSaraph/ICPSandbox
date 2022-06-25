@@ -7,8 +7,12 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy": "ng build --prod --base-href=/angular-cli-ghpages --branch gh-pages"
+    "deploy": "ng build --prod --base-href=/angular-cli-ghpages --branch gh-pages",
+    "preinstall": "npx npm-force-resolutions"
   },
+    "resolutions": {
+    "ansi-html": "https://registry.npmjs.org/ansi-html-community/-/ansi-html-community-0.0.8.tgz"
+},
   "private": true,
   "dependencies": {
     "@angular/animations": "~12.2.0",
